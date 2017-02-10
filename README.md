@@ -12,7 +12,7 @@ We're now rendering server-side first :)
 - Pull the repo
 - `npm i`
 - `npm start`
-- Head to localhost:8080
+- Head to localhost:3000
 
 ## How to configure
 - Head to https://kenticocloud.com

@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { observer } from 'mobx-react';
-import ContentStore from '../stores/ContentStore';
 import Item from './Item';
 import ItemWithImage from './ItemWithImage';
 import KenticoCloudAPI from 'kentico-deliver-js';
