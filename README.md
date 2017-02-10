@@ -19,9 +19,12 @@ We're now rendering server-side first :)
 - Sign up for a free trial
 - Once you're set up, and logged into your Kentico Cloud site, click the Kentico logo in the top left hand corner and click "Development"
 - Copy the "Project ID"
-- Replace the Project ID in `src/config/endpoints.json` with yours:
+- Replace the Project ID in `src/config/default.json` with yours:
 ```js
-"content": "https://deliver.kenticocloud.com/your-project-id-here/items"
+{
+	"projectId": "your-project-id-here",
+	"previewAPIKey": "your-preview-api-key-here"
+}
 ```
 
 You should now see some data on localhost:3000. If you don't, here is what might have happened:
@@ -29,13 +32,13 @@ You should now see some data on localhost:3000. If you don't, here is what might
 - You pasted the Project ID wrong
 - Kentico have changed their base project and the fields have changed. Try inspecting the data
 - React doesn't like a field. Check the console.
-- Slack me `@js`
+- Slack me `@js`, or [open an issue](https://github.com/MMTDigital/kentico-cloud-universal-react/issues)
 
 ## TODO:
 
 - ~~Render the content on the server, first~~
-- Look into the various content-specific endpoints Kentico provides
-- Look at hooking up a view model, for easier data management
+- ~~Look into the various content-specific endpoints Kentico provides~~
+- Look at hooking up a view model/an action -> store configuration, for easier data management
 - ~~Add nodemon~~
 
 ## Resources
