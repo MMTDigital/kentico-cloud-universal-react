@@ -17,18 +17,4 @@ module.exports = {
   performance: {
     hints: false
   },
-  // Webpack dev server is not currently used...
-  devServer: {
-    contentBase: path.join(__dirname, "/"),
-    stats: {
-      colors: true,
-      hash: false,
-      version: false,
-      timings: false,
-      assets: false,
-      chunks: false,
-      warnings: false
-    },
-    clientLogLevel: "error"
-  }
 }
