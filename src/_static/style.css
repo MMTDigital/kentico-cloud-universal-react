@@ -1,0 +1,72 @@
+/* This is for demo purposes */
+
+html {
+	box-sizing: border-box;
+	font-family: -apple-system, BlinkMacSystemFont, Segoe WPC, Segoe UI, HelveticaNeue-Light, Ubuntu, Droid Sans, sans-serif;
+	-webkit-font-smoothing: anti-aliased;
+	color: #333;
+	background-color: #F4F6F8;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	padding-left: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+button {
+	background: #2d7ac8;
+	border: 0;
+	padding: 10px;
+	color: white;
+	font-family: inherit;
+	font-weight: 300;
+	font-size: 16px;
+	border: 2px solid #2363a3;
+}
+
+.page-title {
+	display: block;
+	margin-bottom: 50px;;
+	font-weight: 300;
+	font-size: 18px;
+	text-align: center;
+}
+
+.item {
+	margin: 40px 0;
+	padding: 20px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 0 1px 8px rgba(0, 0, 0, 0.13);
+}
+
+.item-name {
+	display: inline-block;
+	vertical-align: middle;
+	font-weight: 300;
+}
+
+.item-elements {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 30px;
+}
+
+.item-img {
+	max-width: 200px;
+}
+
+.app-container {
+	max-width: 680px;
+	margin: 0 auto;
+	padding: 80px 15px;
+} 
