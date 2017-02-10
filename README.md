@@ -1,11 +1,11 @@
-# Kentico Cloud React Starter
+> # Kentico Cloud React Starter
 
 ## Whut?
-It's looking like we could be using headless CMS systems in teh future... Kentico offer their own headless CMS (and it seems really good!). This repo is my first attempt at rendering simple content from an API endpoint using React.
+A very simple boilerplate to render data from Kentico Cloud to both the server and the client, using React components
 
 ~~*Note: Currently, this is client-side only! The next step would be to SSR this baby, which is totally do-able using this environment. I just don't have time right now to sort it. Feel free to chip in if you do*~~
 
-We're now rendering server-side first :)
+We're now rendering server-side first :) 
 
 ## How to run
 - Install latest node
