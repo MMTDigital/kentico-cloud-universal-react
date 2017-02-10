@@ -8,7 +8,7 @@ import App from './App';
 class AppRoutes extends Component {
   render() {
     return (
-			<Router routes={routes} history={browserHistory} render={(props) => <AsyncProps {...props}/>} />
+      <Router routes={routes} history={browserHistory} render={(props) => <AsyncProps {...props}/>} />
     );
   }
 }

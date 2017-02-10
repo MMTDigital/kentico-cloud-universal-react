@@ -18,21 +18,21 @@ app.use(Express.static(path.join(__dirname, '_static')));
 
 
 app.get('*', (req, res) => {
-	let appHTML;
+  let appHTML;
   match({ routes, location: req.url }, (err, redirect, renderProps) => {
-		if (renderProps) {
-			loadPropsOnServer(renderProps, null, (err, asyncProps, scriptTag) => {
-				appHTML = renderToString( <AsyncProps {...renderProps} {...asyncProps} /> )
+    if (renderProps) {
+      loadPropsOnServer(renderProps, null, (err, asyncProps, scriptTag) => {
+        appHTML = renderToString( <AsyncProps {...renderProps} {...asyncProps} /> )
 
-				const html = res.render('index', { appHTML });
-				res.send(html)
-			})
-		}
-		else {
-			appHTML = renderToString( <NotFoundPage /> )
-			const html = res.render('index', { appHTML });
-			res.send(html)
-		}
+        const html = res.render('index', { appHTML });
+        res.send(html)
+      })
+    }
+    else {
+      appHTML = renderToString( <NotFoundPage /> )
+      const html = res.render('index', { appHTML });
+      res.send(html)
+    }
   })
 })
 
