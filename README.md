@@ -43,8 +43,8 @@ You should now see some data on localhost:3000. If you don't, here is what might
 
 ## Resources
 
-- http://docs.kenticodraft.apiary.io
-- http://docs.kenticodeliver.apiary.io
+- https://developer.kenticocloud.com/docs
+- https://developer.kenticocloud.com/v1/reference
 - https://kenticocloud.com
 
 ## Contributing
